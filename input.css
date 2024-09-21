@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    
+    .poppins{
+      font-family: "Poppins", sans-serif;
+    }
+    .poppins-extrabold {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+  }
+
+  :root{
+      --dark-g:#012B27;
+      --lime-g:rgb(187, 237, 8);
+     
+  }
